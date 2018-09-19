@@ -28,7 +28,7 @@ puts "5 Skills items created"
     subtitle: "Ruby on Rails",
     body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
     main_image: "https://via.placeholder.com/600x400",
-    thumb_image: "https://via.placeholder.com/300x200"
+    thumb_image: "https://via.placeholder.com/350x200"
    )
  end
 
@@ -38,7 +38,7 @@ puts "5 Skills items created"
      subtitle: "Angular",
      body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
      main_image: "https://via.placeholder.com/600x400",
-     thumb_image: "https://via.placeholder.com/300x200"
+     thumb_image: "https://via.placeholder.com/350x200"
     )
   end
  puts "9 Portfolio Items made"
