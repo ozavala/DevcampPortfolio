@@ -113,6 +113,10 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+/*
+ * Custom Styles
+ */
 html,
 body,
 #map {
@@ -123,4 +127,17 @@ body,
 
 #map {
     background: #58B;
+}
+
+.card {
+  width: -moz-fit-content;
+}
+ .card-body{
+   color: black;
+	width: -moz-max-content;
+}
+ 
+.auth-links a {
+  color: black;
+
 }
