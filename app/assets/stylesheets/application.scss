@@ -129,15 +129,25 @@ body,
     background: #58B;
 }
 
-.card {
-  width: -moz-fit-content;
-}
- .card-body{
+// .card {
+//   width: -moz-fit-content;
+// }
+ .card-block{
    color: black;
-	width: -moz-max-content;
+   text-align: left;
+   padding: 20px;
 }
- 
+
 .auth-links a {
   color: black;
 
+}
+
+.register-text{
+  text-align: right;
+}
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
 }
