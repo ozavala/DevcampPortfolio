@@ -22,22 +22,17 @@
   <body>
     <%=  render 'shared/blog_nav' %>
     <div class="container">
-      <!-- <%= render 'shared/blog_heading'%> -->
-        <h1 class = "blog-title"> My blog</h1>
-        <p class="lead blog-description">An Example blog template build with Bootstrap.</p>
-        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+      <%=  render 'shared/blog_masthead' %>
       <main role="main" class="container">
         <div class="row">
 
           <%= yield %>
+          
           <%= render 'shared/blog_sidebar' %>
-
         </div>
-
         <%= render 'shared/blog_footer'%>
-
         <%= source_helper("blog") %>
       </main>
     </div>
   </body>
-</html>
+  </html>

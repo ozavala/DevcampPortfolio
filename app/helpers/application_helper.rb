@@ -16,6 +16,7 @@ module ApplicationHelper
     end
   end
 
+  
   # def alerts
   #   alert = (flash[:alert] || flash[:error] || flash[:notice])
   #
