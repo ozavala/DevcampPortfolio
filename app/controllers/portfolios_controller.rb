@@ -35,12 +35,10 @@ before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
   def update
 
     respond_to do |format|
-      if @portfolio_item.update( )
-        format.html { redirect_to portfolios_path, notice: 'Blog was successfully updated.' }
-
+      if @portfolio_item.update(portfolio_params)
+        format.html { redirect_to portfolios_path, notice: 'The record was successfully updated.' }
       else
         format.html { render :edit }
-
       end
     end
   end
