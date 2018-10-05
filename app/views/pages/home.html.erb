@@ -1,8 +1,9 @@
-<h1> Hi <%=  current_user.first_name  %></h1>
-<p>app/pages/home</p>
 
-<h1>Blog Posts </h1>
-<%= @posts.inspect %>
 
-<h1>Skills </h1>
-<%= @skills.inspect %>
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Welcome.</h1>
+        <p class="lead">Software development is the mean to cover a hugh deamnd for information an communication between participants and shraeholders.</p>
+        <p class="lead">
+        <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
+        </p>
+      </main>

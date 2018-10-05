@@ -1,13 +1,21 @@
-<h1>Pages#contact</h1>
+<div class= "row">
+  <div class = " col-md-6">
+    <h3>Office Address</h3>
+    <p> First Avenue 6789, Kesington, MC 34567</p>
+    <h3> Phone </h3>
+    <p> <%= number_to_phone "099999990" %></p>
+    <h3> Email </h3>
+    <p> <a href = "mailto:wwhite@example.com?subject=PortfolioContact" "email me"> Email me</a></p>
+  </div>
+    <div id="map" class= "col-md-6">
 
-<<<<<<< HEAD
-<p>Find me in app/views/pages/contact.html.erb</p>
-=======
-<p><%= number_to_phone "5555555555"%></p>
+    </div>
+    <script>
+    var map = new GMaps({
+        el: '#map',
+        lat: -2.2058400,
+        lng: -79.9079500
+      });
+    </script>
 
-<p><%= number_to_currency "150"%></p>
-
-<p><%= number_to_percentage "23480.4"%></p>
-
-<p><%= number_with_delimiter "5555555555"%></p>
->>>>>>> 511aecf838f5a2107699181b8e04ad8e0b3ae14e
+</div>
