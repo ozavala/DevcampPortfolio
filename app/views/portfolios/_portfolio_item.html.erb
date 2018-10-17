@@ -2,9 +2,7 @@
   <div class="card mb-4 shadow-sm" data-id= "<%= portfolio_item.id %>">
 
     <!--added .url to thumb_image -->
-    <%= image_tag (portfolio_item.thumb_image.url unless portfolio_item.thumb_image.nil?), width: '100%' %>
-
-    <%= image_tag portfolio_item.thumb_image.to_s unless portfolio_item.thumb_image.nil?  %>
+    
 
     <div class="card-body">
       <p class="card-text">
