@@ -63,9 +63,10 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 1.2', '>= 1.2.3'
-
 gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'carrierwave-aws', '~> 1.3'
+gem "fog-aws"
+gem "fog-google"
+gem "google-api-client", "> 0.8.5", "< 0.9"
+gem "mime-types"
 gem 'dotenv-rails', '~> 2.5'
-
-

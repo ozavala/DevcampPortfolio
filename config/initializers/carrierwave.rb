@@ -1,16 +1,9 @@
 CarrierWave.configure do |config|
-  config.storage    = :aws
-  config.aws_bucket = ENV.fetch('S3_BUCKET_NAME')
-  config.aws_acl    = 'public-read'
-  config.aws_authenticated_url_expiration = 60 * 60 * 24 * 7
-  config.aws_attributes = {
-    expires: 1.week.from_now.httpdate,
-    cache_control: 'max-age=604800'
+  config.fog_provider = 'fog/google'                        # required
+  config.fog_credentials = {
+    provider:                         'Google',
+    google_storage_access_key_id:     ENV.fetch('GOG_ACCESS_KEY'),
+    google_storage_secret_access_key: ENV.fetch('GOG_SECRET_ACCESS_KEY')
   }
-
-  config.aws_credentials = {
-    access_key_id:     ENV.fetch('AWS_ACCESS_KEY_ID'),
-    secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
-    region:            ENV.fetch('AWS_REGION') # Required
-  }
+  config.fog_directory ='dev-image-box'
 end
