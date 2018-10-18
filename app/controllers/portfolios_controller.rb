@@ -75,6 +75,7 @@ before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
                                       :body,
                                       :main_image,
                                       :thumb_image,
+                                      :remote_main_image_url,
                                       tecnologies_attributes: [:name]
                                       )
   end
