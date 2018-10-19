@@ -70,3 +70,4 @@ gem "fog-google"
 gem "google-api-client", "> 0.8.5", "< 0.9"
 gem "mime-types"
 gem 'dotenv-rails', '~> 2.5'
+gem 'cocoon', '~> 1.2', '>= 1.2.12'

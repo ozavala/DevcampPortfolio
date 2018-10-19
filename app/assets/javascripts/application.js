@@ -18,5 +18,6 @@
 //= require activestorage
 //= require gmaps
 //= require html.sortable
+//= require cocoon
 //= require turbolinks
 //= require_tree .
