@@ -38,9 +38,10 @@ gem 'carrierwave', '~> 1.2', '>= 1.2.3'
 gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'carrierwave-aws', '~> 1.3'
 gem "fog-aws"
-gem "fog-google"
-gem "google-api-client", "> 0.8.5", "< 0.9"
+# gem "fog-google"
+# gem "google-api-client", "> 0.8.5", "< 0.9"
 gem "mime-types"
 gem 'dotenv-rails', '~> 2.5'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 gem 'gritter', '~> 1.2'
+gem 'redis', '~> 4.0', '>= 4.0.2'
