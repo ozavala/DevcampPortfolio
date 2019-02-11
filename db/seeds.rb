@@ -22,39 +22,39 @@ puts "10 Blogs created"
 end
 puts "5 Skills items created"
 
-8.times do |portfolio_item|
-  Portfolio.create!(
-    title: "Portfolio Title #{portfolio_item}",
-    subtitle: "Ruby on Rails",
-    body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
-    main_image: "https://via.placeholder.com/600x400",
-    thumb_image: "https://via.placeholder.com/350x200"
-   )
- end
-
- 1.times do |portfolio_item|
-   Portfolio.create!(
-     title: "Portfolio Title #{portfolio_item}",
-     subtitle: "Angular",
-     body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
-     main_image: "https://via.placeholder.com/600x400",
-     thumb_image: "https://via.placeholder.com/350x200"
-    )
-  end
- puts "9 Portfolio Items made"
-
- # 3.times do |technology|
- #   Tecnology.create!(
- #     name: "Technology #{technology}",
- #     portfolio_id: Portfolio.last.id
- #   )
- #  end
-
-  3.times do |technology|
-    Portfolio.last.technologies.create!(
-      name: "Technology #{technology}"
-    )
-   end
-
-
-puts "3 technologies created"
+# 8.times do |portfolio_item|
+#   Portfolio.create!(
+#     title: "Portfolio Title #{portfolio_item}",
+#     subtitle: "Ruby on Rails",
+#     body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
+#     main_image: "https://via.placeholder.com/600x400",
+#     thumb_image: "https://via.placeholder.com/350x200"
+#    )
+#  end
+#
+#  1.times do |portfolio_item|
+#    Portfolio.create!(
+#      title: "Portfolio Title #{portfolio_item}",
+#      subtitle: "Angular",
+#      body: "Nam pulvinar nisi dui, nec tristique dui tincidunt at. Phasellus lacinia felis nec varius efficitur. Suspendisse id semper leo. Nunc tristique sem in quam lacinia maximus. Proin auctor arcu mi, at lobortis est auctor in. Quisque sed pharetra nisi. In vitae tellus a velit condimentum lobortis. Integer sit amet ornare lacus. Donec nulla dui, dignissim dignissim sem sit amet, euismod tristique tortor. ",
+#      main_image: "https://via.placeholder.com/600x400",
+#      thumb_image: "https://via.placeholder.com/350x200"
+#     )
+#   end
+#  puts "9 Portfolio Items made"
+#
+#  # 3.times do |technology|
+#  #   Tecnology.create!(
+#  #     name: "Technology #{technology}",
+#  #     portfolio_id: Portfolio.last.id
+#  #   )
+#  #  end
+#
+#   3.times do |technology|
+#     Portfolio.last.technologies.create!(
+#       name: "Technology #{technology}"
+#     )
+#    end
+#
+#
+# puts "3 technologies created"

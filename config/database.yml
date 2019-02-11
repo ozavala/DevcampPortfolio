@@ -23,6 +23,7 @@ default: &default
   host: localhost
   username: railsuser
   password: railsuser
+  port: 5433
   
 development:
   <<: *default
